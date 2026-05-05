@@ -3,12 +3,12 @@
 set -ouex pipefail
 
 # Nightly COSMIC COPR
-dnf5 -y copr enable ryanabx/cosmic-epoch
-dnf5 -y install cosmic-desktop
-dnf5 -y copr disable ryanabx/cosmic-epoch
+# dnf5 -y copr enable ryanabx/cosmic-epoch
+# dnf5 -y install cosmic-desktop
+# dnf5 -y copr disable ryanabx/cosmic-epoch
 
-systemctl disable gdm.service
-systemctl enable cosmic-greeter.service
+# systemctl disable gdm.service
+# systemctl enable cosmic-greeter.service
 
 # Extra apps
 dnf5 -y install --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terra$releasever' terra-release

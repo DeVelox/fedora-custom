@@ -3,7 +3,8 @@ FROM scratch AS ctx
 COPY build_files /
 
 # Base Image
-FROM ghcr.io/ublue-os/silverblue-nvidia:latest
+# FROM ghcr.io/ublue-os/silverblue-nvidia:latest
+FROM ghcr.io/ublue-os/kinoite-nvidia:latest
 
 ## Enable brew
 # COPY --from=ghcr.io/ublue-os/brew:latest /system_files /
