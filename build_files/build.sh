@@ -12,6 +12,7 @@ set -ouex pipefail
 
 # Extra apps
 dnf5 -y install --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terra$releasever' terra-release
+dnf5 -y install niri mako nautilus gnome-keyring
 dnf5 -y install atuin alacritty bat btop direnv eza fd-find fish helix ncdu \
 nix-core podlet podman-compose quickemu ripgrep starship ugrep zellij zoxide
 
