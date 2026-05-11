@@ -1,3 +1,3 @@
-# Fedora COSMIC
+# Fedora Custom
 
-Custom Fedora COSMIC bootc image for personal use, based on [ublue-os/image-template](https://github.com/ublue-os/image-template).
+Custom Fedora bootc image for personal use, based on [ublue-os/image-template](https://github.com/ublue-os/image-template).
